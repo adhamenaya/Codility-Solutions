@@ -1,0 +1,30 @@
+Detected time complexity:
+O(N * log(N)) or O(N)
+test	time	result
+Example tests
+example1 
+the first example test	1.044 s	OK
+example2 
+the second example test	1.044 s	OK
+Correctness tests
+extreme_min_max 
+single element with minimal/maximal value	1.052 s	OK
+single 
+single element	1.052 s	OK
+double 
+two elements	1.040 s	OK
+antiSum1 
+total sum is correct, but it is not a permutation, N <= 10	1.056 s	OK
+small_permutation 
+permutation + one element occurs twice, N = ~100	1.064 s	OK
+Performance tests
+medium_permutation 
+permutation + few elements occur twice, N = ~10,000	1.064 s	OK
+antiSum2 
+total sum is correct, but it is not a permutation, N = ~100,000	1.288 s	OK
+large_permutation 
+permutation + one element occurs three times, N = ~100,000	1.292 s	OK
+large_range 
+sequence 1, 2, ..., N, N = ~100,000	1.280 s	OK
+extreme_values 
+all the same values, N = ~100,000	1.040 s	OK

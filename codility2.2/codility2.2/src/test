@@ -1,0 +1,30 @@
+Detected time complexity:
+O(N)
+test	time	result
+Example tests
+example 
+example test	1.020 s	OK
+Correctness tests
+simple 
+simple test	1.044 s	OK
+single 
+single element	1.052 s	OK
+extreme_frog 
+frog never across the river	1.048 s	OK
+small_random1 
+3 random permutation, X = 50	1.048 s	OK
+small_random2 
+5 random permutation, X = 60	1.028 s	OK
+Performance tests
+medium_random 
+6 and 2 random permutations, X = ~5,000	1.068 s	OK
+medium_range 
+arithmetic sequences, X = 5,000	1.060 s	OK
+large_random 
+10 and 100 random permutation, X = ~10,000	1.240 s	OK
+large_permutation 
+permutation tests	1.284 s	OK
+large_range 
+arithmetic sequences, X = 30,000	1.152 s	OK
+extreme_leaves 
+all leaves in the same place	1.072 s	OK
